@@ -9,6 +9,7 @@
     --buttongrey: #f5f4fa;
     --lightgrey: #e5e5e5;
     --lineheadercolour: #ececec;
+    --shadow-color:#eeeeee;
 
 }
 
@@ -207,12 +208,11 @@ body {
 
 .button:hover,
 .button:focus,
-.main-button:hover,
-.main-button:focus {
+.main-button:hover > .order,
+.main-button:focus > .order {
     background-color: var(--blue);
     color: var(--white);
-    box-shadow: 0px 6px 5px 0px rgba(29, 29, 29, 0.64);
-    
+    box-shadow: 0px 6px 5px 0px var(--lightgrey);  
 }
 
 
@@ -357,7 +357,7 @@ ul {
 }
 
 .project-description:hover, 
-.project-description:focus{box-shadow: 0px 0px 5px 3px rgba(102, 102, 102, 0.64);
+.project-description:focus{box-shadow: 0px 0px 5px 3px var(--shadow-color);
 cursor: pointer;
 }
 
