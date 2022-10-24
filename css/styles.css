@@ -31,6 +31,7 @@ body {
     font-size: 26px;
     font-weight: 700;
     text-decoration: none;
+    
 
 }
 
@@ -39,6 +40,7 @@ body {
     font-family: 'Raleway';
     color: var(--white);
     font-size: 26px;
+
 }
 
 .logo:hover,
@@ -53,6 +55,7 @@ body {
 
 .blueaccent {
     color: var(--blue);
+    
 }
 
 .link {
@@ -274,6 +277,7 @@ text-decoration-line: none;
     font-weight: 400;
     font-style: normal;
     color: var(--white);
+    margin-top: 20px;
 
 }
 
@@ -356,6 +360,7 @@ ul {
     font-size: 36px;
     color: var(--black);
     letter-spacing: 0.03em;
+    
 
 }
 
@@ -449,13 +454,13 @@ cursor: pointer;
 
 
 }
-/* .contact:hover{--color4: var(--color1)} */
+
 
 
 
 .wrapper {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-between;
     padding: 0 15px;
 
@@ -510,19 +515,6 @@ margin-bottom: 30px;}
    
 }
 
-/* .icon-instagram:hover{
-    
-    background-color: var(--main-link-color);
-    fill: white;
-    transition: 0.3s;
-    cursor: pointer;}
-
-.icon-twitter:hover{}
-.icon-facebook{}
-.icon-linkedin{} */
-/* 
-
-/*new line icons and position*/
 
 
 .socialmedia-icon {
@@ -543,13 +535,10 @@ margin-bottom: 30px;}
 
 .socialmedia-icon:hover, .socialmedia-icon:focus{--color2:var(--white);
     background-color: var(--main-link-color);
-    fill: var(--main-link-color); }
+    fill: var(--main-link-color); transition: 0.2s;}
 
 
 .socialfooter-svg-icon:hover{}
-
-/* .item {border:1px solid var(--shadow-colo);
-    /* width: calc((100%-60px) / 3); */
 
 
         .social-footer {
@@ -593,10 +582,22 @@ margin-bottom: 30px;}
 } 
 
 
-.socialfooter-icon:hover svg{--color2: var(--white);
-    
-    border-radius:50%;
+.socialfooter-icon:hover svg{
+    --color2: var(--white);
+     border-radius:50%;
     background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: var(--main-link-color);
+    /* fill: white; */
+    transition: 0.3s;
+    cursor: pointer;
+}
+.socialfooter-icon:focus svg {
+    --color2: var(--white);
+
+    border-radius: 50%;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-color: var(--main-link-color);
@@ -604,6 +605,7 @@ margin-bottom: 30px;}
     transition: 0.3s;
     cursor: pointer;
 }
+
 .our-clients {
     padding-top: 94px;
     padding-bottom: 94px;
