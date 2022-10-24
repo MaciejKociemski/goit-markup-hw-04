@@ -104,7 +104,10 @@ body {
 
 }
 
-.footer-menu > .container {margin-inline-start:215px;margin-inline-end: 90px;}
+.footer-menu > .container {
+    margin-inline-start: 215px;
+    margin-inline-end: 90px;
+}
 
 .link-mail:hover,
 .link-mail:focus,
@@ -507,7 +510,7 @@ margin-bottom: 30px;}
    
 }
 
-.icon-instagram:hover{
+/* .icon-instagram:hover{
     
     background-color: var(--main-link-color);
     fill: white;
@@ -516,7 +519,7 @@ margin-bottom: 30px;}
 
 .icon-twitter:hover{}
 .icon-facebook{}
-.icon-linkedin{}
+.icon-linkedin{} */
 /* 
 
 /*new line icons and position*/
@@ -628,12 +631,9 @@ gap: 30px;
 }
 
 
-.icon-Logo:hover {
-    --color2: (var(--blue))
-}
-
 .client-box:hover,
 .client-box:focus {
+    --color2: (var(--blue));
     border-color: var(--main-link-color);
     border-radius: 4px;
     background-color: var(--main-bacground-color);
