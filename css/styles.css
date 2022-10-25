@@ -94,23 +94,6 @@ body {
     text-decoration-color: var(--blue);
 }
 
-.footer-menu {
-   display: flex;
-   align-items: baseline;
-   padding-top: 60px;
-   padding-bottom: 60px;
-    /* padding: 0 15px; */
-    background-color: var(--black);
-    color: var(--white);
-    /* padding: 60px 0px; */
-    
-
-}
-
-.footer-menu > .container {
-    margin-inline-start: 215px;
-    margin-inline-end: 90px;
-}
 
 .link-mail:hover,
 .link-mail:focus,
@@ -269,8 +252,10 @@ text-decoration-line: none;
     text-decoration: none;
     color: var(--white);
     opacity: 60%;
+    
    
 }
+
 
 .address {
     font-size: 14px;
@@ -379,7 +364,7 @@ ul {
 .portfolio-images {
     background-color: var(--white);
     margin: 0 0;
-    border: 1px solid #eeeeee;
+   
    
 }
 
@@ -540,13 +525,30 @@ margin-bottom: 30px;}
 
 .socialfooter-svg-icon:hover{}
 
+.footer-menu {
+    display: flex;
+    align-items: baseline;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    /* padding: 0 15px; */
+    background-color: var(--black);
+    color: var(--white);
+    /* padding: 60px 0px; */
+
+
+}
+
+.footer-menu>.container {
+    margin-inline-start: 215px;
+    margin-inline-end: 90px;
+}
 
         .social-footer {
             display: block;
-            padding-top: 12px;
+            /* padding-top: 12px; */
             width: 206px;
-            height: 80px;
-            gap: 70px;
+            /* height: 80px; */
+            /* gap: 70px; */
         }
 
 .join-to-us {
@@ -578,7 +580,7 @@ margin-bottom: 30px;}
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
-        background-image: linear-gradient( rgba(43, 51, 51, 0.841), rgba(43, 51, 51, 0.55));
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
         
 } 
 
@@ -643,4 +645,10 @@ gap: 30px;
     background-color: var(--main-bacground-color);
     fill: var(--main-link-color);
     cursor: pointer;
+}
+
+
+.border {
+    border: 1px solid #eeeeee;
+    margin-top: -5px;
 }
