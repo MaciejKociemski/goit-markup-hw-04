@@ -223,7 +223,7 @@ text-decoration-line: none;
 .main-button:focus > .order {
     background-color: var(--blue);
     color: var(--white);
-    box-shadow: 0px 6px 5px 0px var(--lightgrey);  
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.16);  
 }
 
 
@@ -383,7 +383,7 @@ ul {
 }
 
 .project-description:hover, 
-.project-description:focus{box-shadow: 0px 0px 5px 3px var(--shadow-color);
+.project-description:focus{box-shadow: 1px 4px 6px 0px rgba(0,0,0,0.16);
 cursor: pointer;
 }
 
